@@ -5932,3 +5932,7 @@ breakText	Glyphs	Glyphen
 	Fully Outside	Vollständig außen
 	No artboards match.	Keine Zeichenfläche passt.
 	Chosen: {n} of {total}	Gewählt: {n} von {total}
+
+# Compound Shapes add-on
+	Compound Shapes	Zusammengesetzte Formen
+	Shape Mode Buttons Make Compound Shapes	Formmodus-Schaltflächen erstellen zusammengesetzte Formen

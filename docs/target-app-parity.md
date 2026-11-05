@@ -1,6 +1,6 @@
 # Parity with Adobe Illustrator
 
-> **Last reviewed:** 2026-10-10 · **Last updated:** 2026-11-05 · **Change:** minor (Optical kerning spaces pairs by the font's own stem spacing instead of a fixed tight gap; scores and estimates unchanged) · **Target:** Adobe Illustrator 2026 (30.x; public release notes through 30.7, August 2026)
+> **Last reviewed:** 2026-10-10 · **Last updated:** 2026-11-05 · **Change:** minor (Compound Shapes add-on, beyond Illustrator; scores and estimates unchanged; Optical kerning spaces pairs by the font's own stem spacing instead of a fixed tight gap; scores and estimates unchanged) · **Target:** Adobe Illustrator 2026 (30.x; public release notes through 30.7, August 2026)
 
 ## Feature submission evidence
 
@@ -474,6 +474,7 @@ since 2026-10-01.
 | **Agent automation** | beyond Illustrator | Every command, gesture and dialog is drivable over MCP, the CLI and the control channel; synthetic-input counts, pending events and per-frame control requests are bounded (#1709); what an agent reads and writes on disk can be confined to chosen folders (`--automation-read-root` / `--automation-write-root`, as in PhotoCraft, #832) |
 | **Scrubby numeric fields** | beyond Illustrator | As in Photoshop, dragging a numeric field's label (`W:`, `Opacity:`, the Character panel's icons) left or right steps its value live; one undo step per drag, Escape cancels (#400) |
 | **Align Stroke on live type** | beyond Illustrator | The Stroke panel's Align Stroke works on type's character stroke: inside or outside the glyphs without Create Outlines, the type staying editable (as InDesign does; users have asked Illustrator for it since 2010, e.g. [redd.it/1dwhos6](https://redd.it/1dwhos6)). Canvas, PDF and EPS clip it to its side of the glyphs; SVG keeps the text live and draws the stroke on the glyph outlines (#2294) |
+| **Compound Shapes add-on** | beyond Illustrator | Object › Plug-ins › Compound Shapes puts Make, Release and Expand Compound Shape in the menus, and holds a setting (off by default) that swaps the Pathfinder panel's Shape Mode buttons: a click makes a compound shape and Alt-click gives the permanent result. Selected members of a compound shape always take the clicked mode; the setting is kept with the preferences. Tests: `panels::pathfinder::tests` in `crates/ui-egui/src/panels/pathfinder.rs` |
 
 ## Evidence: what ships today, by area
 
@@ -1619,6 +1620,7 @@ Edit › Copy and Cut put the selected ruler guides on the clipboard, with the s
 
 | Date | Change | Summary |
 |---|---|---|
+| 2026-11-05 | minor | Compound Shapes add-on (beyond Illustrator): Object › Plug-ins › Compound Shapes lists Make, Release and Expand Compound Shape, and holds a setting, off by default, that makes the Pathfinder panel's Shape Mode buttons make a compound shape on a click and give the permanent result on Alt-click (the default is the reverse). Selected members of a compound shape always take the clicked mode. The setting is `window.pathfinder.compoundShapes`; no existing behavior changes while it is off. Scores and estimates unchanged. |
 | 2026-11-01 | minor | Batch Trace Folder (`imageTrace.batchFolder`, #4921); evidence added; scores unchanged. |
 | 2026-11-01 | minor | Copy and paste ruler guides (#3226); evidence added; scores unchanged. |
 | 2026-11-04 | minor | Area type vertical alignment buttons in the Properties panel's Paragraph section and the Control panel, off for columns, rows and threaded frames (#3759); evidence added; scores unchanged. |

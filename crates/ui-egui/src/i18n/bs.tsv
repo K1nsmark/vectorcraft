@@ -6231,3 +6231,7 @@ shape	Open	Otvoren
 	Fully Outside	Potpuno vani
 	No artboards match.	Nijedna radna ploča ne odgovara.
 	Chosen: {n} of {total}	Odabrano: {n} od {total}
+
+# Compound Shapes add-on
+	Compound Shapes	Složeni oblici
+	Shape Mode Buttons Make Compound Shapes	Tasteri načina oblika prave složene oblike

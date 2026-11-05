@@ -6213,3 +6213,7 @@ breakText	Glyphs	Glyffer
 	Fully Outside	Helt udenfor
 	No artboards match.	Ingen tegneflader passer.
 	Chosen: {n} of {total}	Valgt: {n} af {total}
+
+# Compound Shapes add-on
+	Compound Shapes	Sammensatte figurer
+	Shape Mode Buttons Make Compound Shapes	Knapper til formtilstande opretter sammensatte figurer

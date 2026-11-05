@@ -6435,3 +6435,7 @@ shape	Open	Открытый
 	Fully Outside	Полностью снаружи
 	No artboards match.	Нет подходящих монтажных областей.
 	Chosen: {n} of {total}	Выбрано: {n} из {total}
+
+# Compound Shapes add-on
+	Compound Shapes	Составные фигуры
+	Shape Mode Buttons Make Compound Shapes	Кнопки режимов фигур создают составные фигуры

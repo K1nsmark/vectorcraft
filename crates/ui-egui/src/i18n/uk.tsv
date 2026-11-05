@@ -5946,3 +5946,7 @@ breakText	Glyphs	Гліфи
 	Fully Outside	Повністю зовні
 	No artboards match.	Немає відповідних монтажних областей.
 	Chosen: {n} of {total}	Вибрано: {n} з {total}
+
+# Compound Shapes add-on
+	Compound Shapes	Складені фігури
+	Shape Mode Buttons Make Compound Shapes	Кнопки режимів фігур створюють складені фігури

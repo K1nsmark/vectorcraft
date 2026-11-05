@@ -6346,3 +6346,7 @@ breakText	Glyphs	Glyfy
 	Fully Outside	Zcela vně
 	No artboards match.	Žádná pracovní plocha neodpovídá.
 	Chosen: {n} of {total}	Zvoleno: {n} z {total}
+
+# Compound Shapes add-on
+	Compound Shapes	Složené tvary
+	Shape Mode Buttons Make Compound Shapes	Tlačítka režimů tvarů vytvářejí složené tvary

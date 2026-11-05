@@ -6298,3 +6298,7 @@ breakText	Glyphs	Γλύφοι
 	Fully Outside	Πλήρως εκτός
 	No artboards match.	Κανένας πίνακας σχεδίασης δεν ταιριάζει.
 	Chosen: {n} of {total}	Επιλεγμένοι: {n} από {total}
+
+# Compound Shapes add-on
+	Compound Shapes	Σύνθετα σχήματα
+	Shape Mode Buttons Make Compound Shapes	Τα κουμπιά λειτουργιών σχημάτων δημιουργούν σύνθετα σχήματα

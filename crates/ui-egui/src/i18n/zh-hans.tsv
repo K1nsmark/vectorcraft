@@ -6187,3 +6187,7 @@ breakText	Glyphs	字形
 	Fully Outside	完全在外
 	No artboards match.	没有匹配的画板。
 	Chosen: {n} of {total}	已选：{n} / {total}
+
+# Compound Shapes add-on
+	Compound Shapes	复合形状
+	Shape Mode Buttons Make Compound Shapes	形状模式按钮创建复合形状

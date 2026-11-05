@@ -6381,3 +6381,7 @@ breakText	Glyphs	Merkit
 	Fully Outside	Kokonaan ulkona
 	No artboards match.	Mikään piirtoalusta ei vastaa hakua.
 	Chosen: {n} of {total}	Valittu: {n}/{total}
+
+# Compound Shapes add-on
+	Compound Shapes	Yhdistelmämuodot
+	Shape Mode Buttons Make Compound Shapes	Muototilapainikkeet luovat yhdistelmämuotoja

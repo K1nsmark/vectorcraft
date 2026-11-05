@@ -5947,3 +5947,7 @@ breakText	Glyphs	Glyph
 	Fully Outside	Hoàn toàn bên ngoài
 	No artboards match.	Không có bảng vẽ nào khớp.
 	Chosen: {n} of {total}	Đã chọn: {n} trên {total}
+
+# Compound Shapes add-on
+	Compound Shapes	Hình phức hợp
+	Shape Mode Buttons Make Compound Shapes	Nút chế độ hình dạng tạo hình phức hợp

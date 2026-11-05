@@ -5984,3 +5984,7 @@ breakText	Glyphs	字符
 	Fully Outside	完全在外
 	No artboards match.	沒有符合的工作區域。
 	Chosen: {n} of {total}	已選：{n} / {total}
+
+# Compound Shapes add-on
+	Compound Shapes	複合形狀
+	Shape Mode Buttons Make Compound Shapes	形狀模式按鈕製作複合形狀

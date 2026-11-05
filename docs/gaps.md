@@ -1,6 +1,6 @@
 # Gaps
 
-> **Last reviewed:** 2026-10-10 · **Last updated:** 2026-11-04 · **Change:** minor (a slow first frame is waited for instead of restarting without the graphics adapter, and the menu bar no longer waits for the installed fonts' scan; scores and estimates unchanged) · **Target:** Adobe Illustrator 2026 (30.x)
+> **Last reviewed:** 2026-10-10 · **Last updated:** 2026-11-05 · **Change:** minor (Compound Shapes add-on, beyond Illustrator; scores and estimates unchanged; a slow first frame is waited for instead of restarting without the graphics adapter, and the menu bar no longer waits for the installed fonts' scan; scores and estimates unchanged) · **Target:** Adobe Illustrator 2026 (30.x)
 
 ## Feature submission evidence
 
@@ -28,6 +28,7 @@ Artboard Options forwards the active Artboard tool's Scale Artwork with Artboard
 
 | Date | Change | Summary |
 |---|---|---|
+| 2026-11-05 | minor | Compound Shapes add-on (beyond Illustrator): Object › Plug-ins › Compound Shapes lists Make, Release and Expand Compound Shape, and holds a setting, off by default, that makes the Pathfinder panel's Shape Mode buttons make a compound shape on a click and give the permanent result on Alt-click (the default is the reverse). Selected members of a compound shape always take the clicked mode. The setting is `window.pathfinder.compoundShapes`; no existing behavior changes while it is off. Scores and estimates unchanged. |
 | 2026-11-03 | minor | New gradients use CMYK default stops in CMYK documents, including Gradient tool creation. Scores and estimates unchanged. |
 | 2026-11-02 | minor | Font-family fields step selected text with the mouse wheel (#5253); no scored gap or estimate reassessed. |
 | 2026-10-24 | minor | G12: General › Corner Radius is the Rounded Rectangle tool's radius, a change while the tool is active reaches it, and the radius ↑/↓ set while drawing (or a Tool Options value) becomes the preference, within 0–1296 pt (#394, `crates/engine/src/tests/constrain_tools.rs`); no entry closed, estimate unchanged. |

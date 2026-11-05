@@ -6332,3 +6332,7 @@ breakText	Glyphs	Glifs
 	Fully Outside	Totalment fora
 	No artboards match.	Cap tauler no coincideix.
 	Chosen: {n} of {total}	Triats: {n} de {total}
+
+# Compound Shapes add-on
+	Compound Shapes	Formes compostes
+	Shape Mode Buttons Make Compound Shapes	Els botons de mode de forma creen formes compostes

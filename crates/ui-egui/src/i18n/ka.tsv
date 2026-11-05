@@ -6357,3 +6357,7 @@ font-script	Japanese	იაპონური
 	Fully Outside	მთლიანად გარეთ
 	No artboards match.	შესაბამისი სამუშაო დაფა არ არის.
 	Chosen: {n} of {total}	არჩეულია: {n} / {total}
+
+# Compound Shapes add-on
+	Compound Shapes	შედგენილი ფიგურები
+	Shape Mode Buttons Make Compound Shapes	ფიგურის რეჟიმის ღილაკები ქმნის შედგენილ ფიგურებს

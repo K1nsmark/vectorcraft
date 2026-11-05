@@ -6288,3 +6288,7 @@ breakText	Glyphs	Glifos
 	Fully Outside	Totalmente fuera
 	No artboards match.	Ninguna mesa de trabajo coincide.
 	Chosen: {n} of {total}	Elegidas: {n} de {total}
+
+# Compound Shapes add-on
+	Compound Shapes	Formas compuestas
+	Shape Mode Buttons Make Compound Shapes	Los botones de modo de forma crean formas compuestas
